@@ -24,7 +24,7 @@ class MobileNavbar {
     this.mobileMenu.classList.toggle(this.activeClass);
     this.linksContainer.classList.toggle("hidden");
     this.animateLinks();
-  }
+  } 
 
   addClickEvent() {
     this.mobileMenu.addEventListener("click", this.handleClick);
